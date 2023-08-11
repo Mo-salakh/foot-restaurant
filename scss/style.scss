@@ -83,6 +83,7 @@
                     font-weight: 300;
                     line-height: 64px; /* 110.345% */
                     letter-spacing: 2.9px;
+                    width: 100%;
                     
                 }
 
@@ -134,7 +135,7 @@
                 margin-bottom: 20px;
                 position: absolute;
                 left: 13%;
-                bottom: 23%;
+                bottom: 20%;
                 box-shadow: 0px 2px 10px rgba(133, 133, 133, 0.189);
 
 
@@ -163,6 +164,169 @@
 
     }
 
-   
+    .restaurants {
+        margin-top: 150px;
+        margin-bottom: 70px;
+
+        .restaurants__contant-nav {
+            display: flex;
+            justify-content: space-between;
+                 
+            .restaurants__contant-nav-text {
+                color: var(--gray-dark, #3F4255);
+                font-family: Poppins;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 64px; /* 177.778% */
+                letter-spacing: 2.88px;
+            }
+
+            .restaurants__contant-nav-btn {
+                width: 110px;
+                height: auto;
+                padding: 20px 20px;
+                border-radius: 4px;
+                background-color: #f2f4fa;
+
+            }
+            .restaurants__contant-nav-btn a {
+                color: #9093A6;
+                text-align: center;
+                font-family: Martel Sans;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+
+
+            }
+        }
+
+        .restaurants__contant-food {
+            display: flex;
+            flex-direction: row;
+            column-gap: 24px;
+            margin-top: 50px;
+            box-shadow: 0px 2px 16px 0px rgba(60, 62, 74, 0.08);
+        }
+        
+
+    }
+
+    .adress__contant {
+        display: flex;
+        justify-content: space-between;
+        height: 300px;
+        padding:80px ;
+
+        
+        .adress__contant-text {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .adress__contant-text h1 {
+            color: var(--gray-dark, #3F4255);
+            font-family: Poppins;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 64px; /* 177.778% */
+            letter-spacing: 2.88px;
+        }
+        .adress__contant-text p {
+            color: var(--gray-dark, #3F4255);
+            font-family: Martel Sans;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 24px; /* 150% */
+            letter-spacing: 0.5px;
+        }
+
+        .adress__contant-btn {
+            display:inline-flex;
+            align-items: center;
+            margin-left: 80px;
+            
+
+        }
+
+        .adress__contant-btn input {
+            height: 25px;
+            width: 330px;
+            padding: 24px;
+            margin-right: 5px;
+            color: var(--gray-second-text, #9093A6);
+            font-family: Martel Sans;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 24px; /* 150% */
+            letter-spacing: 0.5px;
+            border: white;
+            border-radius: 2%;
+            box-shadow: rgba(0, 0, 0, 0.08);
+            
+        }
+
+        .adress__contant-btn a {
+            height: 70px;
+            width: 80px;
+            padding: 24px;
+            color: var(--brand-yellow-dark, #B79C10);
+            text-align: center;
+            font-family: Martel Sans;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 20px; /* 125% */
+            letter-spacing: 0.5px;
+            border-radius: 4px;
+            background:#FFE145;
+        }
+    }
+
+    .specialities__content {
+
+        margin: 70px 0;
+        .specialities__content-txt {
+            display: flex;
+            justify-content: space-between;
+    
+        }
+    }
+
+}
+
+.adress__bg {
+    background-color:#F2F4FA;
+}
+
+.btn-show-all {
+    width: 110px;
+    height: auto;
+    padding: 20px 20px;
+    border-radius: 4px;
+    background-color: #f2f4fa;
+
+}
+.btn-show-all a {
+    color: #9093A6;
+    text-align: center;
+    font-family: Martel Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.title-txt {
+    color: var(--gray-dark, #3F4255);
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 64px; /* 177.778% */
+    letter-spacing: 2.88px;
 }
 
